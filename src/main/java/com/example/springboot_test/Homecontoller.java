@@ -9,6 +9,12 @@ public class Homecontoller {
 	@GetMapping("/display")
 	public String diplay() {
 		return "javatpoint";
+	}	
+	
+	@GetMapping("/hello")
+	public String hello() {
+			return "hello";
+		
 	}
 
 }
