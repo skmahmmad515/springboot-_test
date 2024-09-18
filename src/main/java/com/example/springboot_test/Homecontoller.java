@@ -16,5 +16,10 @@ public class Homecontoller {
 			return "hello";
 		
 	}
+	
+	@GetMapping("/print")
+	public String print() {
+		return "print";
+	}
 
 }
